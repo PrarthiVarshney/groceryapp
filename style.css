@@ -1,0 +1,247 @@
+
+.main{
+    background-color: rgb(229, 236, 236);
+    width: 100%;
+    min-height: 90px;
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr ;
+    position: sticky;
+    top: 0;
+}
+.no{
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+ 
+
+   }h1,h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 300;
+   }
+   .ntwo{
+    display: grid;
+    justify-items: center;
+
+   }
+   ul{
+    list-style-type: none;
+    display: flex;
+   }
+   li{
+    margin-right: 45px;
+    margin-top: 40px;
+    font-size: 24px;
+   }
+   a{
+    text-decoration: none;
+    color: black;
+   }
+   .nthree{
+    display: grid;
+    justify-items:center ;
+    grid-template-columns: 1fr 1fr;
+
+   }
+   .nthree img{
+    margin-top: 30px;
+   }
+   .vege{
+    border:2px solid black;
+    background-color:whitesmoke;
+    
+    background-image: url("https://thumbs.dreamstime.com/z/frame-set-vegetables-fruits-white-background-free-space-text-copy-top-view-173359032.jpg");
+    
+    }
+    .line{
+        text-align: center;
+        color:blueviolet;
+        font-size: 50px;
+        font-style: bold;
+    }
+    .line1{
+        color:black
+        ;
+        text-align: center;
+        font-size: 25px;
+    }
+    #shop{
+        border-color: blueviolet;
+        color:blueviolet;
+        margin: auto;
+        display: block;
+        font-size: large;
+    }
+    #shop:hover{
+       background-color: orange;
+    }
+    .user{
+        border:2px solid white;
+        background-color:whitesmoke;
+       
+        display: flex;
+        justify-content: center;
+    padding:20px;
+    }
+    .user1{
+        font-size: 50px;
+        font-style: bold;
+        color:black;
+    }
+    .user2{
+        font-size: 50px;
+        font-style: bold;
+        color:white;
+        background-color: orangered;
+    }
+    .boy{
+        border:2px solid rgb(202, 189, 189);
+        background-color:whitesmoke;
+        
+    }
+    .boy:hover{
+        border:2px solid black;
+ 
+    }
+    #boy1{
+        border-radius: 50%;
+        margin: auto;
+        display: block;
+    }
+    .line2{
+        color:black;
+        text-align: center;
+        font-size: 25px;
+    }
+    .line3{
+        color:black;
+        text-align: center;
+        font-size: 30px;
+        font-style: bold;
+        font-weight: 200;
+    }
+    .i3{
+        color: orange;
+        height: 50px;
+        margin: auto;
+        display: block;
+        width:80px;
+    }
+    .boy:hover{
+        border:2px solid black;
+    }.heading1{
+    display: flex;
+    justify-content: center;
+padding:20px;
+background-color: rgb(179, 174, 174);
+border: 1px solid white;
+
+
+}
+.head1{
+    font-size: 50px;
+    font-style: bold;
+    color:black;
+}
+.head2{
+    font-size: 50px;
+    font-style: bold;
+   color:white;
+   background-color: orangered;
+}
+.blogyes{
+    height:380px;
+    width:280px;
+    border:2px solid rgb(243, 237, 237);
+    display:flex;
+    flex-direction:column;
+   padding:20px;
+    margin:8px; 
+    border-radius: 10px;
+    background-color: white;
+}
+.sticker{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(179, 174, 174);
+}
+#line{
+    border:1px solid rgb(163, 159, 159);
+height:1px;
+width: 240px; 
+background-color:rgb(197, 193, 193) ;
+}
+#admintext{
+    text-align:left;
+    color:black;
+}
+#button{
+    background-color:white;
+    color:black;
+    height: 35px;
+    width:100px;
+    border:2px solid black;
+    border: 2px;
+
+
+}
+#intext{
+    color:darkred;
+    }
+    #button:hover{
+background-color: yellow;
+    }
+    i{
+        color: orange;
+    }
+    .below{
+        background: #fff;
+    }
+    
+    .below .yes-container{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+        gap:1.5rem;
+    }
+    
+    .below .yes-container .yes h3{
+        font-size: 2.5rem;
+        color:var(--black);
+        padding:1rem 0;
+    }
+    
+    .below .yes-container .yes h3 i{
+        color:var(--orange);
+    }
+    
+    .below .yes-container .yes .links{
+        display: block;
+        font-size: 1.5rem;
+        color:var(--light-color);
+        padding:1rem 0;
+    }
+    
+    .below .yes-container .yes .links i{
+        color:var(--orange);
+        padding-right: .5rem;
+    }
+    
+    .below .yes-container .yes .links:hover i{
+        padding-right: 2rem;
+    }
+    
+    
+    .below .yes-container .yes p{
+        line-height: 1.8;
+        font-size: 1.5rem;
+        color:var(--light-color);
+        padding:1rem 0;
+    }
+    
+    
+    
+    
+     .below-container .yes .share a:hover{
+        background: var(--orange);
+        color: #fff;
+    }
